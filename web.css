@@ -41,23 +41,17 @@ ul {
 }
 .ampliar{
     position:relative;
-    width: 70%;
+    width: 100%;
     margin: 10px;
     transition: width 0.1s ease-in-out;
 }
-.ampliar:hover{
-    width: 100%;
-  }
 
 .ampliarMAS{
     position:relative;
-    width: 80%;
+    width: 100%;
     margin: 10px;
     transition: width 0.1s ease-in-out;
 }
-.ampliarMAS:hover{
-    width: 100%;
-  }
 .carrusel{
     position:relative;
     display: block;
