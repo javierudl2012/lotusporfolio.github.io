@@ -53,12 +53,6 @@ ul {
     transition: width 0.1s ease-in-out;
 }
 .carrusel{
-    position:relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: auto;
     opacity:80%;
     transition: opacity 0.1s ease-in-out;
 }
@@ -71,6 +65,7 @@ ul {
 .navbar-brand{
     width: 15%;
 }
-
-
-
+.pfp{
+    border-radius: 25px;
+    box-shadow: 3px 2px 12px rgba(68, 67, 67, 0.192); 
+}
