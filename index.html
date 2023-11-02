@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="web.css">
     <title>Portfolio Nick Orue</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
@@ -34,7 +35,7 @@
                   Contactar con el Artista
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item"  href="#"target="_blank">Correo</a></li>
+                  <li><a class="dropdown-item" id="contacto_artista" href="#"target="_blank">Correo</a></li>
                   <li><a class="dropdown-item"  href="https://x.com/oruete2?s=20"target="_blank">Twitter</a></li>
                   <li><a class="dropdown-item"  href="https://www.instagram.com/shiro.nick/"target="_blank">Instagram</a></li>
                 </ul>
@@ -166,7 +167,7 @@
         <div class="row">
           <div class="col">
             <br>
-            <h2>Quin es el nostre objectiu?</h2>
+            <h2 id="somos">Quin es el nostre objectiu?</h2>
               <ul style="list-style-type:none;" >
                   <p>La nostra <strong>pàgina web</strong> busca donar un lloc per allocar diversos tipus <strong>d'artistes digitals</strong> i garantir-los un lloc on poder promocionar-se, a més de donar les eines per contactar amb ells.</p>
               </ul>    
@@ -175,8 +176,7 @@
             <br>
             <h2>Escriu-nos</h2>
               <ul style="list-style-type:none;" >
-                <li>Podeu contactar amb nosaltres a través de <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCKHRLsPSltKgLvRXqNzsfwrTclLlcwpPpmBqNzxSpNcFvSKzKhMdFQZHLkXwPgsjCWdCgbB"target="_blank">Gmail</a>
-                  <li>y <a href="https://twitter.com/cercleant"target="_blank">Twitter</a>
+                <li>Podeu contactar amb nosaltres a través de les nostres xarxes socials</li>
               </ul>
           </div>
         </div>
@@ -185,7 +185,37 @@
   </section>
 
     <footer>
-        <p></p>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>La nostra iniciativa</h4>
+            <ul>
+              <li><a href="#somos">Sobre nosaltres</a></li>
+              <li><a href="#">Politica de Privacitat</a></li>
+              <li><a href="#somos">Com afiliarte amb Lotus Porfolio</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Ajuda</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#contacto_artista">Contacte amb els artistes</a></li>
+              <li><a href="#">Comissions</a></li>
+              <li><a href="#">Opcions d'enviament</a></li>
+              <li><a href="#">Opcions de pagament</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contacta amb nosaltres</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+       </div>
     </footer>
 </body>
 </html>
