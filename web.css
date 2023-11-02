@@ -1,0 +1,82 @@
+img {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    font-family: system-ui;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .navbar a {
+    color: rgb(0, 0, 0);  
+}
+
+.posicionamiento ul {
+    font-size: 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 0.25rem; }
+
+section {
+    margin: 3rem 4rem 8rem; }
+
+ul {
+    list-style: none;
+    margin: 0 0 0 2rem;
+    padding: 2.2rem;
+    background: #ffffff;
+    box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4); }
+
+.navbar-nav{
+    font-size: large;
+    list-style: none;
+    margin: 0 0 0 2rem;
+    padding: 2.2rem;
+    background: #ffffff00;
+    box-shadow: 3px 2px 12px rgba(255, 255, 255, 0); 
+}
+.ampliar{
+    position:relative;
+    width: 70%;
+    margin: 10px;
+    transition: width 0.1s ease-in-out;
+}
+.ampliar:hover{
+    width: 100%;
+  }
+
+.ampliarMAS{
+    position:relative;
+    width: 150%;
+    margin: 10px;
+    transition: width 0.1s ease-in-out;
+}
+.ampliarMAS:hover{
+    width: 200%;
+  }
+.carrusel{
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: auto;
+    opacity:80%;
+    transition: opacity 0.1s ease-in-out;
+}
+.carrusel:hover{
+    opacity: 100%;
+}
+.carousel-inner{
+    background-image: linear-gradient(to right, Black, gray, black);
+}
+.navbar-brand{
+    width: 15%;
+}
+
+
+
