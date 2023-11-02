@@ -63,7 +63,7 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
+    height: 60%;
     width: auto;
     opacity:80%;
     transition: opacity 0.1s ease-in-out;
